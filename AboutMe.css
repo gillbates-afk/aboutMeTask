@@ -1,0 +1,49 @@
+body{
+    font-family: "Courier New", 'Courier New', Courier, monospace;
+    background-color: #eb6aca;
+}
+
+#profilePicture{
+    height: 8vh;
+    width: 8vh;
+    border-style: inset;
+    border-color: #ffffff;
+    left: 10px;
+}
+
+#topBar{
+    background-color: #bb0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topBar > h2{
+    color: #ffffff;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#topBar > h2:hover{
+    cursor: pointer;
+}
+
+.content{
+    background-color: #ffffff;
+    opacity: 75%;
+}
+
+#homeContent{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+#hobbiesContent{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
